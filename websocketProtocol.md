@@ -6,8 +6,8 @@ Initialize agent when someone comes near the totem
 End agent when people leaves he area
 {"type": "end", "content": }
 
-Send
+Send what agent says
 {"type": "request", "content": "text containing what the agent says"}
 
-Initialize agent when someone comes near the totem
+Receive what user says
 {"type": "response", "content": "text containing the answer of the user" }
